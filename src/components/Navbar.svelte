@@ -23,7 +23,7 @@
     align-items: center;
   }
 
-  nav .container ul {
+  /* nav .container ul {
     display: flex;
     height: 100%;
   }
@@ -31,5 +31,5 @@
   nav .container ul li {
     margin: 10px;
     list-style: none;
-  }
-    </style>
+  } */
+</style>
