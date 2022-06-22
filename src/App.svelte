@@ -37,6 +37,4 @@
     flex-basis: 600px;
     margin-left: 20px;
   }
-
-  
 </style>

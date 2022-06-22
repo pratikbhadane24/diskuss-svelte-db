@@ -1,12 +1,13 @@
-<script></script>
+<script>
+  export let content;
+  export let author;
+  export let handle;
+</script>
 
 <div class="chit">
-  <div class="author">Not Rich Harris</div>
-  <div class="handle">@notharris</div>
-  <div class="chit-content">
-    Create DApps (smart contracts using Ethereum blockchain) ... Best seller course on sale right
-    now for only $9.99 ... Don't miss out on this great opportunity!!
-  </div>
+  <div class="author">{author}</div>
+  <div class="handle">{handle}</div>
+  <div class="chit-content">{content}</div>
   <div class="chit-meta">
     <div class="rechit"><i class="fa-solid fa-retweet" /> 2</div>
     <div class="like"><i class="fa-solid fa-thumbs-up" /> 10</div>
